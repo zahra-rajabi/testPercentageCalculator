@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محاسبه درصد</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <input
+          type="number"
+          placeholder="تعداد کل تست ها"
+          class="input"
+          id="total"
+          min="0"
+          name="total" /><br />
+        <input
+          type="number"
+          min="0"
+          placeholder="تعداد تست های درست"
+          class="input"
+          name="correct"
+          id="correct" /><br />
+        <input
+          min="0"
+          type="number"
+          placeholder="تعداد تست های غلط"
+          class="input"
+          id="wrong"
+          name="wrong" /><br />
+
+        <button type="button">محاسبه درصد</button>
+      </form>
+      <br />
+      <p class="result">درصد شما</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
